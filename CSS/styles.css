@@ -1,0 +1,78 @@
+* {
+  font-family: "Cinzel Decorative", cursive;
+  color: #b22222;
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-top: 20px;
+}
+
+header img {
+  width: 500px;
+  height: auto;
+}
+
+body {
+  background-image: url("../img//Ravenloft2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  min-height: 200vh;
+  height: 100vh;
+}
+
+.p1 {
+  text-align: left;
+  font-size: 25px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 30px;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  width: 500px;
+  height: auto;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(24, 4, 4);
+  border-radius: 10px;
+  padding: 10px;
+  height: auto;
+  position: absolute;
+  top: 200px;
+  width: 400px;
+  left: 75px;
+  transform: translateX(150%);
+  padding-top: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.novo img {
+  width: 100%;
+  height: auto;
+}
+
+.novo {
+  text-align: left;
+  font-size: 25px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 30px;
+  position: absolute;
+  top: 250px;
+  left: 1150px;
+  width: 500px;
+  height: auto;
+}
